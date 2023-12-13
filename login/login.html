@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="backButton" onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+    <main class="container">
+
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="Introduce tu usuario">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Introduce tu contraseña">
+                <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="Continuar">
+        </form>
+
+        <div class="footer">
+            <div class="recupera">
+                <h3>¿Has olvidado la contraseña?</h3>
+                <a>Recuperala aquí</a>
+            </div>
+            <div class="registraqui">
+                <h3>¿No tienes cuenta?</h3>
+                <a>Registrate aquí</a>
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
